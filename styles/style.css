@@ -1,1 +1,45 @@
 @import "reset.css";
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  font-family: Georgia, sans-serif;
+}
+
+header,
+.timestamp,
+.panel {
+  font-family: arial, sans-serif;
+}
+
+body > header {
+  display: flex;
+
+  height: 45px;
+
+  color: #f2f2f2;
+  background-color: rgb(38, 38, 38);
+
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 21px;
+  margin-left: 15px;
+}
+
+body > header ul {
+  display: flex;
+  display: inline-flex;
+
+}
+body > header li {
+  padding-right: 15px;
+
+  text-transform: uppercase;
+}
+header {
+  font-size: 13px;
+}
