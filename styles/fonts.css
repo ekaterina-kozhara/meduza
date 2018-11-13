@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "PF Regal";
+  scr: url("../fonts/PFRegal.woff")
+  format("woff");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  src: url("../fonts/ProximaNova-Bold.woff")
+  format("woff");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+
+  scr: url("../fonts/ProximaNova-Regular.woff")
+  format("woff");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 600;
+  src: url("../fonts/ProximaNova-Semibold.woff")
+  format("woff");
+}

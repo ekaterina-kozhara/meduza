@@ -1,17 +1,22 @@
 @import "reset.css";
+@import "fonts.css";
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h3 {
-  font-family: Georgia, sans-serif;
+  font-family: "PF  Regal", sans-serif;
 }
 
 header,
 .timestamp,
 .panel {
-  font-family: arial, sans-serif;
+  font-family: "Proxima Nova", sans-serif;
+}
+.timestamp {
+  font-size: 12px;
+  color: gray;
 }
 
 body > header {
@@ -34,15 +39,16 @@ body > header ul {
   display: flex;
   display: inline-flex;
 
+
 }
 body > header li {
   padding-right: 15px;
 
   text-transform: uppercase;
+  font-weight: 700;
 }
 header {
   font-size: 13px;
-}
 
 box-sizing: border-box;
 
@@ -112,6 +118,13 @@ display: inline-flex;
 justify-content: center;
 align-items: center;
 }
+.top-stories__header {
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+  text-transform: uppercase;
+  padding: 16px 18px 0;
+}
 
 .right-panel {
 position: static;
@@ -136,7 +149,7 @@ padding-top: 15px;
 border-bottom: 1px solid rgb(115, 114, 116);
 background-color: white;
 
-font-weight: bold;
+font-weight: 600;
 }
 
 .panel button {
@@ -159,10 +172,36 @@ border: 1px solid #ccc;
 border-top: 4px solid #b88b58;
 background-color: #fff;
 }
-.container {
+.top-stories__card-list {
+  height: 350px;
+  padding: 20px;
+}
+.top-stories__container .top-stories__container__card {
 display: flex;
+padding: 18px;
+}
+.card {
+  height: 140px;
+  padding-right: 25px;
+}
+.is-important {
+width: 50%;
+}
+.is-important h3 {
+ font-size: 34px;
+ flex: 1;
+}
+.container-right {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.container-right .card {
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-card.is-important {
-width: 50%;
+.container-right .card h3 {
+  flex: 1;
 }

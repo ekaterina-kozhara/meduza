@@ -31,19 +31,19 @@
     <button type="button" name="button">Показывать по порядку</button>
   </div>
   <main>
-    <section>
-      <header>
+    <section class="top-stories">
+      <header class="top-stories__header">
         Новости
       </header>
-      <div class="container">
-        <div class="class is-important">
+      <div class="top-stories__container">
+        <div class="top-stories__container__card top-stories__container__card--is-important">
           <h3>Правительство запретило пользоваться мессенджерами по чужому номеру телефона</h3>
-          <div class="timestamp">
+          <div class="top-stories__container__card__timestamp">
             <img src="images/ok.svg" alt="chechbox"> час назад
           </div>
         </div>
-        <div class="container-right">
-          <div class="card">
+        <div class="top-stories__card-list">
+          <div class="top-stories__card-list__card">
             <h3>РБК: в Москве обстреляли автомобиль бизнесмена из списка Forbes Олега Бурлакова</h3>
             <div class="timestamp">
               <img src="images/why.svg" alt="chechbox"> 6 минут назад
@@ -62,15 +62,23 @@
             <div class="timestamp">
               <img src="images/why.svg" alt="chechbox"> 12 минут назад
             </div>
-            <div class="card">
-              <h3>В Подмосковье закрывают школу, основанную Лениным. Родители опасаются, что территорию продадут и застроят</h3>
-              <div class="timestamp">
-                <img src="images/why.svg" alt="chechbox"> час назад
-              </div>
-
+          </div>
+          <div class="card">
+            <h3>В Подмосковье закрывают школу, основанную Лениным. Родители опасаются, что территорию продадут и застроят</h3>
+            <div class="timestamp">
+              <img src="images/why.svg" alt="chechbox"> час назад
+            </div>
           </div>
 
         </div>
+      </div>
+    </section>
+    <section class="photo-stories">
+      <div class="photo-stories__card">
+        <img src="" alt="">
+      </div>
+      <div class="photo-stories__card">
+        <img src="" alt="">
       </div>
     </section>
   </main>
