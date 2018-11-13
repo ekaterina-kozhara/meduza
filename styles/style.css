@@ -43,3 +43,126 @@ body > header li {
 header {
   font-size: 13px;
 }
+
+box-sizing: border-box;
+
+-webkit-font-smoothing: antialiased;
+}
+
+.head {
+background-color: #262626;
+
+flex-flow: row wrap;
+align-items: center;
+}
+
+.logo>img {
+display: inline-block;
+
+width: 100px;
+height: 45px;
+}
+
+#logo {
+position: static;
+
+display: inline-block;
+
+align-items: center;
+flex-grow: 1;
+flex-basis: 16%;
+justify-content: flex-start;
+}
+
+.logo2 {
+margin-bottom: 4px;
+padding: 0 15px;
+}
+
+nav, ul {
+color: white;
+}
+
+nav {
+position: static;
+
+display: flex;
+
+height: 45px;
+
+font-size: 11pt;
+
+align-items: center;
+justify-content: center;
+flex-flow: row wrap;
+flex-grow: 1;
+flex-basis: 60%;
+
+}
+
+body > header li {
+display: inline-block;
+
+padding-right: 15px;
+}
+
+header ul {
+display: inline-flex;
+
+justify-content: center;
+align-items: center;
+}
+
+.right-panel {
+position: static;
+
+display: flex;
+flex-direction: row;
+
+align-items: center;
+flex-basis: 16%;
+flex-grow: 1;
+justify-content: flex-end;
+}
+
+.panel {
+position: relative;
+
+box-sizing: border-box;
+height: 45px;
+padding: 0 15px;
+padding-top: 15px;
+
+border-bottom: 1px solid rgb(115, 114, 116);
+background-color: white;
+
+font-weight: bold;
+}
+
+.panel button {
+position: absolute;
+right: 0;
+}
+
+main {
+height: 100vh;
+padding-top: 25px;
+
+background-color: rgb(242, 242, 242);
+}
+
+section {
+width: 90vw;
+margin: 0 auto;
+
+border: 1px solid #ccc;
+border-top: 4px solid #b88b58;
+background-color: #fff;
+}
+.container {
+display: flex;
+}
+
+card.is-important {
+width: 50%;
+}
